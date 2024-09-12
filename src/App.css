@@ -1,0 +1,20 @@
+
+.weather-item-wrap{
+  width: 100%;
+  height: 100vh;
+  padding: 10rem;
+  background: linear-gradient(#04ADBF,#04BFBF,#ffffff,#F2E0C9);
+
+  align-content: center;
+}
+
+.weather-item-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn:not(:last-child){
+  margin-right: 0.25rem;
+}
